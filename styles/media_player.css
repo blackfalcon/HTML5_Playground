@@ -1,0 +1,212 @@
+body {
+	/*
+font-family: Verdana;
+	font-size: 24px;
+	line-height: 1.5em;
+	padding: 10px 10px 10px 0;
+*/
+}
+
+p {
+	/* margin-bottom: 1em; */
+}
+
+ul li {
+	/* float: left; */
+}
+
+#streamtext_options_button {
+	position: fixed;
+	font-size: 18px;
+	width:80px;
+	height: 35px;
+	text-align: center;
+	top: -30px;
+	left: 0px;
+	right: -205px;
+	margin: 0 auto;
+	padding:0 10px;
+	border:1px solid;
+	border-width: 0 1px 1px;
+	background: #f6f8f9; /* old browsers */
+	background: -moz-linear-gradient(top, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6f8f9), color-stop(50%,#e5ebee), color-stop(51%,#d7dee3), color-stop(100%,#f5f7f9)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 ); /* ie */
+	-moz-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+	-webkit-transition: all.3s ease, 0.2s linear;
+	-webkit-box-shadow: 0 0px 10px #999;
+	-moz-box-shadow: 0 0px 10px #999;
+}
+
+#streamtext_options_button a {
+	display: block;
+	height: 200px;
+	width: 400px;
+	margin-left: -160px;
+}
+
+#streamtext_options_button:hover {
+	top:0px;
+}
+
+#streamtext_options_button a {
+	text-decoration: none;
+}
+
+
+#streamtext_toolbar a {
+	color: #fff;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#streamtext_toolbar ul {
+	width: 300px;
+	left: 0px;
+	right: 0px;
+	margin: 0 auto;
+	position: fixed;
+	margin-top: -5px;
+}
+
+#streamtext_toolbar ul li {
+	padding: 0px 5px;
+}
+
+#streamtext_toolbar .fontslider {
+	width: 150px;
+}
+
+#streamtext_toolbar .play_pause {
+	display: inline-block;
+	padding: 5px 10px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 12px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+#streamtext_toolbar .play_pause:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0e0e0e), color-stop(100%,#7d7e7d)); /* webkit */
+}
+
+#streamtext_toolbar .options {
+	line-height: 0.5em;
+	padding-top: 2px;	
+}
+
+
+
+#streamtext_toolbar .pausebutton {
+	width: 10px;
+	height: 31px;
+	border: 1px solid #fff;
+	border-width: 0 10px;
+	display: block;
+}
+
+#streamtext_toolbar .playbutton {
+	border-color:transparent transparent transparent #FFFFFF;
+	border-style:solid;
+	border-width:15px 5px 15px 20px;
+	display: block;
+	height: auto;
+	margin-left: 5px;
+	width: auto;	
+}
+
+#streamtext_toolbar .color_options {
+	display: inline-block;
+	padding: 0 10px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 10px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+#streamtext_toolbar .color_options:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0e0e0e), color-stop(100%,#7d7e7d)); /* webkit */
+}
+
+#streamtext_toolbar .close_toolbar {
+	position: relative;
+	float: right;
+	right: 10px;
+	top: -10px;
+	
+}
+
+#streamtext_toolbar, #streamtext_color_options {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	width: 400px;
+	height: 55px;
+	background: #7d7e7d; /* old browsers */
+	background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7d7e7d), color-stop(100%,#0e0e0e)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* ie */
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 0 auto;
+	z-index: 1000;
+	text-align: center;
+	-webkit-box-shadow: 0 5px 10px #333;
+	-moz-box-shadow: 0 5px 10px #333;
+}
+
+#streamtext_color_options {
+	top: 80px;
+	right: -63px;
+	width: 215px;
+	height: 40px;
+	line-height: 30px;
+	padding: 5px 0;
+}
+
+#streamtext_color_options a {
+	display: inline-block;
+	padding: 0 10px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 12px;
+	background-color: #fff;
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	border: 1px solid;
+}
+
+#streamtext_color_options .white {
+	color: #fff;
+	background-color: #000;	
+}
+
+#streamtext_color_options .sepia {
+	color: #957E68;
+	background-color: #EDEBE0;	
+}
+
+#streamtext_color_options .selected, #streamtext_color_options a:hover {
+	border-color: blue;
+}
+
+#streamtext_color_options .arrow {
+	border-color:transparent transparent #7d7e7d transparent;
+	width: 3px;
+	border-style:solid;
+	border-width:20px 15px;
+	display: block;
+	margin: -45px 0 4px 150px;
+}
+
+
+
+
+

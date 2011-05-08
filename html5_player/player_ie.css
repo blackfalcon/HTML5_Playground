@@ -1,0 +1,35 @@
+#streamtext_options_button {
+	background: url("images/Gear-icon.png") 8px 5px no-repeat #f6f8f9;
+	*left: 300px;
+}
+
+#streamtext_color_options {
+	*left: 240px;
+}
+
+#streamtext_color_options .arrow {
+	*display: none;
+	*visibility: hidden;
+}
+
+#streamtext_toolbar {
+	*margin: 0 100px;
+}
+
+#streamtext_toolbar ul {
+	*margin-top: -30px;
+}
+
+#streamtext_toolbar .fontslider {
+	*margin-top: 35px;
+}
+
+#streamtext_toolbar .play_pause {
+	*width: 30px; /* ie7 */
+	*height: 30px; /* ie7 */
+}
+
+#streamtext_toolbar .options {
+	*height: 30px; /* ie7 */
+	*width: 50px; /* ie7 */	
+}

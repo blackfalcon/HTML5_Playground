@@ -1,0 +1,487 @@
+html, body {
+	height: 100%; /* needed for container min-height */
+
+}
+
+
+body {
+	background-color: #fff;
+}
+
+.container {
+	width: 960px;
+	margin: 0px auto;
+	background-color: #fff;
+	position:relative; /* needed for footer positioning*/
+	height:auto !important; /* real browsers */
+	height:100%; /* IE6: treaded as min-height*/
+	min-height:100%; /* real browsers */
+	background-color: #fff;
+	-moz-box-shadow: 0px -100px 50px #ccc;
+	-webkit-box-shadow: 0px -100px 50px #ccc;
+}
+
+
+header#site_header {
+	width: 960px;
+	margin-right: 0px;
+}
+
+header#site_header nav ul {
+	width: 100%;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	
+	display: -moz-box;
+	-moz-box-orient: horizontal;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+}
+
+header#site_header nav li {
+	/* reset */
+	width: auto;
+	float: none;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	/* reset */
+}
+
+
+pre {
+	background-color: #000;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding:10px 0 10px 50px;
+	margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+ul li {
+	float: left;
+}
+*/
+
+section.left {
+	float: left;
+	width: 190px;
+	margin: 0 20px;
+	padding: 0 10px;
+}
+
+section.left nav li {
+	border: 0px;
+	float: none;
+	border-bottom: 1px solid #EAEAEA;
+	-webkit-transition: all.2s ease, 0.3s linear;
+	-moz-transition: all.2s ease, 0.3s linear;
+}
+
+section.left nav li a {
+	border: 0px;
+	margin: 0px;
+	padding: 10px 0 10px 10px;
+	-webkit-transition: all.2s ease, 0.3s linear;
+	-moz-transition: all.2s ease, 0.3s linear;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+section.left nav li a:hover {
+	-webkit-box-shadow: 0px 0px 80px #ccc;
+	-moz-box-shadow: 0px 0px 80px #ccc;
+	font-size: 24px;
+	
+}
+
+section.left nav li:hover {
+	border-color: #fff;
+}
+
+
+section.right {
+	float: right;
+	width: 670px;
+	margin: 0 20px 0 0;
+	padding: 0 10px;
+}
+
+section.right footer {
+	margin-top: 10px;
+	font-style: italic;
+}
+
+header .logo {
+	background: URL("http://mirrors.creativecommons.org/presskit/logos/cc.logo.large.png") 0 0 no-repeat;
+	width: 1010px;
+	height: 250px;
+	/* text-indent: -9990px; */
+	color: #fff;
+	top: -80px;
+	left: -335px;
+	position: relative;
+	margin-bottom: 13px;
+	float: left;
+	-moz-transform: scale(0.3);
+	-webkit-transform: scale(0.3);
+	margin-bottom: -170px;
+}
+
+header .html5_logo {
+	position: absolute;
+	right: 0px;
+	top: 20px;
+}
+
+header nav {
+	border-top: 1px solid #EAEAEA;
+	margin: 20px;
+	padding: 20px 0 20px 0;
+}
+
+header nav ul {
+	width: 920px;
+}
+
+header nav li {
+	width: 130px;
+}
+
+header nav li {
+	border-width: 0 1px 0 0;
+	padding: 5px 0;
+	/* background: -moz-linear-gradient(left center, rgb(249,245,239) 0%, rgb(255,255,255) 20%, rgb(255,255,255) 50%, rgb(255,255,255) 80%, rgb(249,245,239) 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0, rgb(249,245,239)),color-stop(0.2, rgb(255,255,255)),color-stop(0.5, rgb(255,255,255)),color-stop(0.8, rgb(255,255,255)),color-stop(1, rgb(249,245,239))) */
+
+}
+
+header nav li:first-child {
+	border-width: 0 1px;
+}
+
+nav li:first-child {
+	border-width: 0px;
+}
+
+nav li {
+	text-align: center;
+	border: 1px solid #575757;
+	border-width: 0 0 0 1px;
+}
+
+nav a {
+	padding: 0 10px 0 0;
+	margin: 0 0 0 10px;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: #89133F;
+}
+
+.fade {
+	margin-left: 360px;
+}
+
+article aside {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+footer#site_footer {
+	text-align: center;
+	padding: 20px 0 30px 0;
+	width: 920px;
+	margin: 40px 20px 0;
+	float: left;
+	border-top: 1px solid #EAEAEA;
+}
+
+
+footer nav {
+	margin-bottom: 20px;
+}
+
+footer#site_footer nav { 
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	margin: 0px 0 30px 0;
+}
+
+footer#site_footer nav ul {
+	width: 100%;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	
+	display: -moz-box;
+	-moz-box-orient: horizontal;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+}
+
+footer p {
+	width: 920px;
+	margin-bottom: 0px
+}
+
+
+
+
+
+
+
+.toggle {
+	cursor: pointer;
+}
+
+
+
+
+#Iframe3 {
+	border: 1px solid;
+	padding: 0 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+
+
+/* Flex box stuff */
+#flexbox { 
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	
+	display: -moz-box;
+	-moz-box-orient: horizontal;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+	-moz-box-flex: 1;
+	
+	height: 100px;
+	border: 1px solid #ccc;
+	padding: 0 10px;
+	margin: 0 0 10px;
+ }
+ 
+#flexbox p {-webkit-box-flex: 1; -moz-box-flex: 1; text-align: center; margin: 0px; padding: 5px;}
+
+#flexbox > p:nth-child(1){ background : #FCC; }
+#flexbox > p:nth-child(2){ background : #CFC; }
+#flexbox > p:nth-child(3){ background : #CCF; }
+
+
+
+/* the following css is for the layered tabs ui */
+.layered_tabs {
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	
+	display: -moz-box;
+	-moz-box-orient: horizontal;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * jQuery Nivo Slider v2.3
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2010, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+ 
+ 
+/* The Nivo Slider styles */
+.slider {
+	position:relative;
+	width:100%; /* Change this to your images width */
+	height:471px; /* Change this to your images height */
+	background:url(http://www.jscheer.com/beta/images/loader.gif) no-repeat 50% 50%;
+}
+
+.slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+
+.slider a {
+	border:0;
+	display:block;
+}
+
+.nivoSlider {
+	position:relative;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:60;
+	display:none;
+}
+/* The slices in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:50;
+	height:100%;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	opacity:0.8; /* Overridden by captionOpacity setting */
+	width:100%;
+	z-index:89;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:99;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav a {
+	position:relative;
+	z-index:99;
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}
+
+
+.drop-shadow {
+	position:relative;
+	float:left;
+	width:40%;    
+	padding:1em; 
+	margin:2em 10px 4em; 
+	background:#fff;
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.drop-shadow:before,
+.drop-shadow:after {
+	content:"";
+	position:absolute; 
+	z-index:-2;
+}
+
+.drop-shadow p {
+	font-size:16px;
+	font-weight:bold;
+}
+
+/* Lifted corners */
+
+.lifted {
+    -moz-border-radius:4px; 
+         border-radius:4px;
+}
+
+.lifted:before,
+.lifted:after { 
+    bottom:15px;
+    left:10px;
+    width:50%;
+    height:20%;
+    max-width:300px;
+    -webkit-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);   
+       -moz-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+            box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+    -webkit-transform:rotate(-3deg);    
+       -moz-transform:rotate(-3deg);   
+        -ms-transform:rotate(-3deg);   
+         -o-transform:rotate(-3deg);
+            transform:rotate(-3deg);
+}
+
+.lifted:after {
+    right:10px; 
+    left:auto;
+    -webkit-transform:rotate(3deg);   
+       -moz-transform:rotate(3deg);  
+        -ms-transform:rotate(3deg);  
+         -o-transform:rotate(3deg);
+            transform:rotate(3deg);
+}
+
+
+
+
+
+
+
